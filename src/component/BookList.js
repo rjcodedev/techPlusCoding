@@ -34,7 +34,7 @@ const BookList = () => {
         window.open(url, '_blank', 'noopener,noreferrer');
     }
     return (
-        <div className='flex flex-row row-auto justify-center'>
+        <div className='flex flex-wrap gap-x-5 gap-y-2 justify-center mx-auto'>
             {Books.map((item) =>
                 <div key={item.id} className='w-[200px] h-[320px] bg-white shadow-black shadow-lg rounded-lg flex flex-col items-center m-2 pt-1' >
                     <div className='w-[150px] h-[203px] border-white border-2 rounded-lg overflow-hidden' >
