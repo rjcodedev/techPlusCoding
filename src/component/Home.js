@@ -10,8 +10,8 @@ const Home = () => {
                 <div className='w-full h-[300px] relative'>
                     <img src={Banner} alt="boosks" className='w-full h-full ' />
                     <div className='absolute text-white flex flex-col items-center justify-center w-full h-[300px] bg-black top-0 left-0 bg-opacity-60'>
-                        <p className='font-semibold text-4xl'>Get All The Books You Need!</p>
-                        <p className='font-semibold text-xl bg-transparent'>Enhance your skills</p>
+                        <p className='font-semibold text-2xl lg:text-4xl'>Get All The Books You Need!</p>
+                        <p className='font-semibold text-lg lg:text-xl bg-transparent'>Enhance your skills</p>
                     </div>
                 </div>
                 {/* <div className='ml-2 lg:ml-0'><div className='font-bold text-xl md:text-3xl'>Get all the Books </div><div className='font-bold text-xl md:text-3xl'>You Need!</div></div> */}
