@@ -1,17 +1,23 @@
 import React from 'react'
-import books from '../assets/books.png'
+import Banner from '../assets/Banner.jpg'
 import BookList from './BookList'
 
 const Home = () => {
+    // w-[200px] h-[200px] md:w-[310px] md:h-[310px]
     return (
         <div className='min-h-screen'>
-            <div className='flex flex-row justify-around p-2 items-center bg-slate-300'>
-                <div><img src={books} alt="boosks" className='w-[200px] h-[200px] md:w-[310px] md:h-[310px]' /></div>
-                <div className='ml-2 lg:ml-0'><div className='font-bold text-xl md:text-3xl'>Get all the Books </div><div className='font-bold text-xl md:text-3xl'>You Need!</div></div>
+            <div className='flex flex-row justify-around items-center bg-slate-300'>
+                <div className='w-full h-[300px] relative'>
+                    <img src={Banner} alt="boosks" className='w-full h-full ' />
+                    <div className='absolute text-white font-semibold text-4xl flex items-center justify-center w-full h-[300px] bg-black top-0 left-0 bg-opacity-60'>
+                        Get All The Books You Need!
+                    </div>
+                </div>
+                {/* <div className='ml-2 lg:ml-0'><div className='font-bold text-xl md:text-3xl'>Get all the Books </div><div className='font-bold text-xl md:text-3xl'>You Need!</div></div> */}
             </div>
             <div className='bg-red-500 w-full text-center text-white font-medium' >Get 50% Off On Every Book Purchased</div>
             <div className='my-10'>
-            <BookList />
+                <BookList />
             </div>
         </div>
     )

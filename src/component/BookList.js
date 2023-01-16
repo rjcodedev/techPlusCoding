@@ -2,6 +2,7 @@ import React from "react";
 import Book1 from "../assets/Books/Book1.png";
 import Book2 from "../assets/Books/Book2.png";
 import Book3 from "../assets/Books/Book3.png";
+import Book4 from "../assets/Books/Book4.jpg";
 
 const BookList = () => {
   const Books = [
@@ -35,6 +36,16 @@ const BookList = () => {
       currency: "₹",
       url: "https://rzp.io/l/LearnLinux",
     },
+    {
+      id: 4,
+      img: Book4,
+      name: "Complete overview of frontend Developer",
+      subName: "step by step Guide",
+      mrp: 198,
+      price: 99,
+      currency: "₹",
+      url: "https://rzp.io/l/tGzMyKep",
+    },
   ];
 
   const openUrl = (url) => {
@@ -45,9 +56,9 @@ const BookList = () => {
       {Books.map((item) => (
         <div
           key={item.id}
-          className="w-[200px] h-[350px] bg-white shadow-black shadow-lg rounded-lg flex flex-col items-center m-2 pt-1"
+          className="p-2 w-[200px] h-[350px] bg-white shadow-black shadow-lg rounded-lg flex flex-col items-center m-2 pt-1"
         >
-          <div className="w-[150px] h-[203px] border-white border-2 rounded-lg overflow-hidden">
+          <div className="w-[150px] h-[203px] border-white border-2 rounded-lg overflow-hidden border-[1px] border-black">
             <img src={item.img} alt={item.name} className="w-full h-full" />
           </div>
           <div className="text-center text-sm font-medium mt-2">
