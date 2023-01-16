@@ -5,7 +5,7 @@ import headLogo from '../assets/head-logo.png'
 
 const Header = () => {
     return (
-        <div className='bg-gray-900 flex justify-between py-2 px-2' >
+        <div className='bg-black flex justify-between py-2 px-2' >
             <Link to='/'><img src={headLogo} alt='img' className='md:w-10 md:h-10 w-10 h-10' /></Link>
 
             <div className='flex justify-between items-center'>
