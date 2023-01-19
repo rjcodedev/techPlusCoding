@@ -1,4 +1,4 @@
-# Digital book stoe
+# Digital book store
 
 This project available on [https://digitalbookstore.netlify.app](https://digitalbookstore.netlify.app)
 
