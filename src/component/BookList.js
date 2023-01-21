@@ -3,7 +3,7 @@ import Book1 from "../assets/Books/Book1.png";
 import Book2 from "../assets/Books/Book2.png";
 import Book3 from "../assets/Books/Book3.png";
 import Book4 from "../assets/Books/Book4.jpg";
-
+import Book5 from '../assets/Books/Book5.png'
 const BookList = () => {
   const Books = [
     {
@@ -45,6 +45,16 @@ const BookList = () => {
       price: 199,
       currency: "₹",
       url: "https://rzp.io/l/tGzMyKep",
+    },
+    {
+      id: 5,
+      img: Book5,
+      name: "The road to learn pure react.js for beginner",
+      subName: "step by step Guide",
+      mrp: 398,
+      price: 199,
+      currency: "₹",
+      url: "",
     },
   ];
 
