@@ -12,7 +12,7 @@ const BookList = () => {
       name: "Learning the HTML for Beginner",
       subName: "step by step Guide",
       mrp: 300,
-      price: 150,
+      price: 149,
       currency: "₹",
       url: "https://rzp.io/l/LearnHTML",
     },
@@ -32,7 +32,7 @@ const BookList = () => {
       name: "Top 50 + Linux command for Programmer",
       subName: "step by step Guide",
       mrp: 300,
-      price: 150,
+      price: 149,
       currency: "₹",
       url: "https://rzp.io/l/LearnLinux",
     },
@@ -54,7 +54,7 @@ const BookList = () => {
       mrp: 398,
       price: 199,
       currency: "₹",
-      url: "",
+      url: "https://rzp.io/l/LearnReactjs",
     },
   ];
 
@@ -68,7 +68,7 @@ const BookList = () => {
           key={item.id}
           className="p-2 w-[200px] h-[350px] bg-white shadow-black shadow-lg rounded-lg flex flex-col items-center m-2 pt-1"
         >
-          <div className="w-[150px] h-[203px] border-white border-2 rounded-lg overflow-hidden border-[1px] border-black">
+          <div className="w-[150px] h-[203px] rounded-lg overflow-hidden border-[1px] border-black">
             <img src={item.img} alt={item.name} className="w-full h-full" />
           </div>
           <div className="text-center text-sm font-medium mt-2">
