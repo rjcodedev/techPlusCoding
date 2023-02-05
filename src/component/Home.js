@@ -1,6 +1,7 @@
 import React from 'react'
 import Banner from '../assets/Banner.jpg'
 import BookList from './BookList'
+import SocialMedia from './SocialMedia'
 
 const Home = () => {
     // w-[200px] h-[200px] md:w-[310px] md:h-[310px]
@@ -19,6 +20,9 @@ const Home = () => {
             <div className='bg-red-500 w-full text-center text-white font-medium' >Get 50% Off On Every Book Purchased</div>
             <div className='my-10'>
                 <BookList />
+            </div>
+            <div>
+                <SocialMedia/>
             </div>
         </div>
     )
