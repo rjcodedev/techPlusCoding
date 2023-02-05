@@ -12,14 +12,14 @@ const Contact = () => {
       >
         contactlearnwebdevelopment@gmail.com
       </a>
-      <p className="text-xl font-semibold underline">telegram Id:</p>
+      <p className="text-xl font-semibold underline">Telegram</p>
       <a
-        href={`https://t.me/codehangout`}
+        href={`https://telegram.me/codehangout`}
         target="_blank"
         rel="noreferrer"
         className="hover:text-blue-500 hover:underline"
       >
-        https://t.me/codehangout
+        Learn web development
       </a>
     </div>
   );
