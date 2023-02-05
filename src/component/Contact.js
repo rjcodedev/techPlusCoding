@@ -11,7 +11,16 @@ const Contact = () => {
         className="hover:text-blue-500 hover:underline"
       >
         contactlearnwebdevelopment@gmail.com
-      </a>{" "}
+      </a>
+      <p className="text-xl font-semibold underline">telegram Id:</p>
+      <a
+        href={`https://t.me/codehangout`}
+        target="_blank"
+        rel="noreferrer"
+        className="hover:text-blue-500 hover:underline"
+      >
+        https://t.me/codehangout
+      </a>
     </div>
   );
 };
