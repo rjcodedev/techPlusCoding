@@ -34,7 +34,7 @@ const SocialMedia = () => {
             <h2 className='text-center font-bold text-xl underline'>Social media</h2>
             <div className='flex justify-center gap-x-2'>
                 {SocialIcons.map((item) => (
-                    <div className='cursor-pointer' onClick={() => openUrl(item.url)}><img className='w-10 h-10' alt={item.name} src={item.img} /></div>
+                    <div key={item.id} className='cursor-pointer' onClick={() => openUrl(item.url)}><img className='w-10 h-10' alt={item.name} src={item.img} /></div>
                 ))}
             </div>
         </div>
