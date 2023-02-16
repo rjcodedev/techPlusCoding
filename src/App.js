@@ -4,6 +4,10 @@ import About from './component/About'
 import Contact from './component/Contact'
 import Header from './component/Header';
 import Footer from './component/Footer';
+import ReactGA from 'react-ga';
+  const TRACKING_ID = "UA-180090671-1"; // OUR_TRACKING_ID
+  ReactGA.initialize(TRACKING_ID);
+  ReactGA.pageview(window.location.pathname);
 function App() {
   return (
     <BrowserRouter>
