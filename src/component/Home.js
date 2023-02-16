@@ -2,6 +2,9 @@ import React from 'react'
 import Banner from '../assets/Banner.jpg'
 import BookList from './BookList'
 import SocialMedia from './SocialMedia'
+import ReactGA from 'react-ga';
+  const TRACKING_ID = "UA-180090671-1"; // OUR_TRACKING_ID
+  ReactGA.initialize(TRACKING_ID);
 
 const Home = () => {
     // w-[200px] h-[200px] md:w-[310px] md:h-[310px]
