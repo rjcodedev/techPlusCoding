@@ -6,7 +6,7 @@ import { useLocation } from "react-router-dom";
 const Header = () => {
   const location = useLocation();
   const [isMenuVisible, setIsMenuVisible] = useState(false);
-  console.log("host", window.location.host);
+  // console.log("host", window.location);
   return (
     <div className="bg-blue-500 flex justify-between py-2 px-2">
       <div className="flex justify-center items-center gap-4">
@@ -15,7 +15,7 @@ const Header = () => {
         </Link>
         {location.pathname === "/" ? (
           <div className="text-white pr-3 font-bold text-sm md:text-base">
-            {window.location.host}
+           Tech Plus Coding
           </div>
         ) : (
           <Link
@@ -28,7 +28,6 @@ const Header = () => {
       </div>
 
       {/* desktop/large device Menu */}
-
       <div className="hidden md:flex justify-between items-center gap-2 mr-3">
         <Link
           to="/carrer"
@@ -57,7 +56,7 @@ const Header = () => {
       </div>
       {/* Mobile device Menu */}
       {isMenuVisible && (
-        <div className="absolute right-0 top-14 bg-black z-40">
+        <div className="absolute right-0 top-14 bg-blue-500 z-40">
           <div className="md:hidden flex flex-col justify-between items-center gap-2 mr-3">
             <Link
               to="/carrer"
