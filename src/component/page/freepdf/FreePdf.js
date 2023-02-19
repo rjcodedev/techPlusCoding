@@ -2,8 +2,10 @@ import React from "react";
 
 const FreePdf = () => {
   return (
-    <div className=" min-h-screen w-full">
-      <h1>FreePdf</h1>
+    <div className="h-screen w-full flex justify-center items-center ">
+      <h3 className="text-xl md:text-4xl font-medium text-gray-400">
+        Currently we working on it
+      </h3>
     </div>
   );
 };
