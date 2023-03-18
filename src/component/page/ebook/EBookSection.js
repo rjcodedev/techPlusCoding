@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "../../../assets/Banner.jpg";
-import BookList from "./BookList";
+// import BookList from "./BookList";
 import SocialMedia from "../../SocialMedia";
 import ReactGA from "react-ga";
 import ListUI from "../../ListUI";
