@@ -83,7 +83,7 @@ export const freePdf = [
   },
   {
     id: 5,
-    img: "Bookhttps://parsefiles.back4app.com/MN97C5lCE7bi2l9kLmYUf2QaWCCuw2M5VqXprXMa/c6c5481a52506b65b79f84c1ee00efee_4.png",
+    img: "https://parsefiles.back4app.com/MN97C5lCE7bi2l9kLmYUf2QaWCCuw2M5VqXprXMa/c6c5481a52506b65b79f84c1ee00efee_4.png",
     name: "React cheet sheet",
     subName: "step by step Guide",
     url: "shorturl.at/ksDEJ",
