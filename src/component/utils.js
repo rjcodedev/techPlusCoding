@@ -1,8 +1,4 @@
-import Book1 from "../assets/Books/Book1.png";
-import Book2 from "../assets/Books/Book2.png";
-import Book3 from "../assets/Books/Book3.png";
-import Book4 from "../assets/Books/Book4.jpg";
-import Book5 from "../assets/Books/Book5.png";
+
 export const Books = [
   {
     id: 1,
@@ -59,35 +55,35 @@ export const Books = [
 export const freePdf = [
   {
     id: 1,
-    img: Book1,
+    img: "https://parsefiles.back4app.com/MN97C5lCE7bi2l9kLmYUf2QaWCCuw2M5VqXprXMa/6366974ec1f85d0dddcbc942933d2206_1.png",
     name: "Frontend development",
     subName: "step by step Guide",
     url: "shorturl.at/mqJ18",
   },
   {
     id: 2,
-    img: Book2,
+    img: "https://parsefiles.back4app.com/MN97C5lCE7bi2l9kLmYUf2QaWCCuw2M5VqXprXMa/2dd6ddc3a77384fb6ad6eec8466f71c1_5.png",
     name: "Javascript Note for Professionals",
     subName: "step by step Guide",
     url: "shorturl.at/qLSU7",
   },
   {
     id: 3,
-    img: Book3,
+    img: "https://parsefiles.back4app.com/MN97C5lCE7bi2l9kLmYUf2QaWCCuw2M5VqXprXMa/a110968c07e8f38687ba2b778ef7a529_2.png",
     name: "JS Cheat",
     subName: "step by step Guide",
     url: "shorturl.at/qyDMY",
   },
   {
     id: 4,
-    img: Book4,
+    img: "https://parsefiles.back4app.com/MN97C5lCE7bi2l9kLmYUf2QaWCCuw2M5VqXprXMa/ac849533364234bfaba0bb80500c8ff2_3.png",
     name: "MongoDB Note for Professionals",
     subName: "step by step Guide",
     url: "shorturl.at/gluA3",
   },
   {
     id: 5,
-    img: Book5,
+    img: "Bookhttps://parsefiles.back4app.com/MN97C5lCE7bi2l9kLmYUf2QaWCCuw2M5VqXprXMa/c6c5481a52506b65b79f84c1ee00efee_4.png",
     name: "React cheet sheet",
     subName: "step by step Guide",
     url: "shorturl.at/ksDEJ",
