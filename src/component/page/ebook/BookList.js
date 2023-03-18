@@ -66,7 +66,7 @@ const BookList = () => {
       {Books.map((item) => (
         <div
           key={item.id}
-          className="p-2 w-[200px] h-[350px] bg-white shadow-black shadow-lg rounded-lg flex flex-col items-center m-2 pt-1"
+          className="p-2 w-[280px] md:w-[200px] md:h-[350px] bg-white shadow-black shadow-lg rounded-lg flex flex-col items-center m-2 pt-1"
         >
           <div className="w-[150px] h-[203px] rounded-lg overflow-hidden border-[1px] border-black">
             <img src={item.img} alt={item.name} className="w-full h-full" />

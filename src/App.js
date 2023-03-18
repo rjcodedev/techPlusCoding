@@ -15,18 +15,20 @@ ReactGA.pageview(window.location.pathname);
 function App() {
   return (
     <BrowserRouter>
-      <div className="relative">
+      <div className="relative ">
         <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="ebook" element={<EBookSection />} />
-          <Route path="carrer" element={<Placment />} />
-          <Route path="freepdf" element={<FreePdf />} />
-          <Route path="*" element={<ErrorPage />} />
-        </Routes>
-        <Footer />
+        <div className="flex flex-col min-h-screen bg-[#f2f2f2]">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/ebook" element={<EBookSection />} />
+            <Route path="/source" element={<Placment />} />
+            <Route path="/freepdf" element={<FreePdf />} />
+            <Route path="*" element={<ErrorPage />} />
+          </Routes>
+          <Footer />
+        </div>
       </div>
     </BrowserRouter>
   );

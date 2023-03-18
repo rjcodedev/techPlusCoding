@@ -30,10 +30,10 @@ const Header = () => {
       {/* desktop/large device Menu */}
       <div className="hidden md:flex justify-between items-center gap-2 mr-3">
         <Link
-          to="/carrer"
+          to="/source"
           className="px-2 py-2 font-bold text-white text-sm md:text-base hover:underline underline-offset-2"
         >
-          Carrer
+          Source Code
         </Link>
         <Link
           to="/ebook"
@@ -59,10 +59,10 @@ const Header = () => {
         <div className="absolute right-0 top-14 bg-blue-500 z-40">
           <div className="md:hidden flex flex-col justify-between items-center gap-2 mr-3">
             <Link
-              to="/carrer"
+              to="/source"
               className="px-2 py-2 font-bold text-white text-sm md:text-base hover:underline underline-offset-2"
             >
-              Carrer
+              Source Code
             </Link>
             <Link
               to="/ebook"
@@ -71,7 +71,7 @@ const Header = () => {
               E-Book
             </Link>
             <Link
-              to="contact"
+              to="/contact"
               className="px-2 py-2 font-bold text-white text-sm md:text-base hover:underline underline-offset-2"
             >
               Contact

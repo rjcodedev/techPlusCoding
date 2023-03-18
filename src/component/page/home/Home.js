@@ -1,5 +1,5 @@
 import React from "react";
-import SocialMedia from "../../SocialMedia";
+// import SocialMedia from "../../SocialMedia";
 import { TypeAnimation } from "react-type-animation";
 import { Link } from "react-router-dom";
 
@@ -36,9 +36,9 @@ const Home = () => {
             people in short time which took me ages to learn.
           </div> */}
           <div className="py-2">
-            <button className="bg-black text-white font-mediumx px-4 py-2 rounded-md text-sm hover:text-gray-300">
+            <Link to='/ebook'  className="bg-black text-white font-mediumx px-4 py-2 rounded-md text-sm hover:text-gray-300">
               Explore
-            </button>
+            </Link>
             <Link to='/freepdf' className="ml-3 bg-gray-200 text-black font-medium px-4 py-2.5 rounded-md text-sm hover:bg-gray-300">
               Free PDF
             </Link>
@@ -46,7 +46,7 @@ const Home = () => {
         </div>
       </section>
       <section>
-        <SocialMedia />
+        {/* <SocialMedia /> */}
       </section>
     </div>
   );

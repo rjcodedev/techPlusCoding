@@ -1,11 +1,10 @@
 import React from "react";
-
+import ListUI from "../../ListUI";
+import { freePdf } from "../../utils";
 const FreePdf = () => {
   return (
-    <div className="h-screen w-full flex justify-center items-center ">
-      <h3 className="text-xl md:text-4xl font-medium text-gray-400">
-        Currently we working on it
-      </h3>
+    <div className="h-screen pt-2">
+      <ListUI List={freePdf} />
     </div>
   );
 };

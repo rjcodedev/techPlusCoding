@@ -3,6 +3,8 @@ import Banner from "../../../assets/Banner.jpg";
 import BookList from "./BookList";
 import SocialMedia from "../../SocialMedia";
 import ReactGA from "react-ga";
+import ListUI from "../../ListUI";
+import { Books } from "../../utils";
 const TRACKING_ID = process.env.REACT_APP_G_ANALYTICS_ID; // OUR_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
 
@@ -28,7 +30,8 @@ const EBookSection = () => {
         Get 50% Off On Every Book Purchased
       </div>
       <div className="my-10">
-        <BookList />
+        <ListUI List={Books} />
+        {/* <BookList /> */}
       </div>
       <div>
         <SocialMedia />
