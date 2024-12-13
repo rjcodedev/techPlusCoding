@@ -88,4 +88,11 @@ export const freePdf = [
     subName: "step by step Guide",
     url: "https://www.mediafire.com/file/ekbbu6f0ymzu24l/react-cheat-sheet_%25281%2529.pdf/file",
   },
+  {
+    id: 6,
+    img: "https://parsefiles.back4app.com/MN97C5lCE7bi2l9kLmYUf2QaWCCuw2M5VqXprXMa/742ef543f06d5bef977a5cf17d05de1f_Astronaut%20Floating%20in%20Space%20Science%20Fiction%20Book%20Cover.png",
+    name: "Master Git & GitHub",
+    subName: "step by step Guide",
+    url: "https://www.mediafire.com/file/cl9ul2yw98p5o8i/git.pdf/file",
+  }
 ];
