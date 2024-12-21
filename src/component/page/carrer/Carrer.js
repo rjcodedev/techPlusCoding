@@ -9,5 +9,5 @@ const Carrer = () => {
     </div>
   );
 };
-
+ 
 export default Carrer;
