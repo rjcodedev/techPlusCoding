@@ -4,8 +4,8 @@ import emailjs from 'emailjs-com';
 
 function ContactForm() {
     const [formData, setFormData] = useState({
-        name: '',
-        lastName: '',
+        firstname: '',
+        lastname: '',
         email: '',
         message: ''
     });
@@ -29,7 +29,7 @@ function ContactForm() {
                 console.log('Email sent successfully!', result.text);
                 setIsSuccess(true); // Set success flag
                 setStatusMessage('Your message has been sent successfully!');
-                setFormData({ name: '', lastName: '', email: '', message: '' }); // Reset form
+                setFormData({ firstname: '', lastname: '', email: '', message: '' }); // Reset form
             })
             .catch((error) => {
                 console.error('Failed to send email.', error.text);
@@ -43,12 +43,12 @@ function ContactForm() {
             <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                     <div>
-                        <label htmlFor="name" className="block text-lg font-semibold text-gray-700">First Name</label>
-                        <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} className="mt-1 block w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-200 focus:border-indigo-500" required />
+                        <label htmlFor="firstname" className="block text-lg font-semibold text-gray-700">First Name</label>
+                        <input type="text" id="firstname" name="firstname" value={formData.firstname} onChange={handleChange} className="mt-1 block w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-200 focus:border-indigo-500" required />
                     </div>
                     <div>
-                        <label htmlFor="lastName" className="block text-lg font-semibold text-gray-700">Last Name</label>
-                        <input type="text" id="lastName" name="lastName" value={formData.lastName} onChange={handleChange} className="mt-1 block w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-200 focus:border-indigo-500" required />
+                        <label htmlFor="lastname" className="block text-lg font-semibold text-gray-700">Last Name</label>
+                        <input type="text" id="lastname" name="lastname" value={formData.lastname} onChange={handleChange} className="mt-1 block w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-200 focus:border-indigo-500" required />
                     </div>
                 </div>
 
