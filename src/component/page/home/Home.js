@@ -4,6 +4,7 @@ import Book2 from "../../../assets/Books/Book2.png";
 import Book3 from "../../../assets/Books/Book3.png";
 import Book4 from "../../../assets/Books/Book4.jpg";
 import Book5 from "../../../assets/Books/Book5.png";
+import Book6 from "../../../assets/Books/Book6.png";
 import { Link } from "react-router-dom";
 
 const books = [
@@ -56,6 +57,16 @@ const books = [
     price: 199,
     currency: "₹",
     url: "https://rzp.io/l/LearnReactjs",
+  },
+  {
+    id: 6,
+    img: Book6,
+    name: "how to earn money from AI ",
+    subName: "step by step Guide",
+    mrp: 420,
+    price: 199,
+    currency: "₹",
+    url: "https://buymeacoffee.com/dreamconsole/liked-my-ebook-ai-se-paise-kaise-kamaye-support-my-journey",
   },
 ];
 
