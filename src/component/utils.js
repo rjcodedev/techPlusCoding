@@ -50,6 +50,16 @@ export const Books = [
     currency: "₹",
     url: "https://rzp.io/l/LearnReactjs",
   },
+  {
+    id: 6,
+    img: "https://parsefiles.back4app.com/MN97C5lCE7bi2l9kLmYUf2QaWCCuw2M5VqXprXMa/8160f0f73e7aef5f60b6dfdaf05e744c_AIPaage.png",
+    name: "how to earn money from AI ",
+    subName: "step by step Guide",
+    mrp: 399,
+    price: 199,
+    currency: "₹",
+    url: "https://buymeacoffee.com/dreamconsole/liked-my-ebook-ai-se-paise-kaise-kamaye-support-my-journey",
+  },
 ];
 
 export const freePdf = [
